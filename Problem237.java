@@ -12,7 +12,7 @@
 
 public class Solution {
     public void deleteNode(ListNode node) {
-
+    /*
     	if(node == null)
     		return;
         
@@ -20,6 +20,7 @@ public class Solution {
     		node = null;
     		return;
     	}
+    */ // for general solution remove the comments from line 15- 23	
 
         node.val = node.next.val;
         node.next = node.next.next;
